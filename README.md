@@ -3,7 +3,7 @@ Mysqli Easy to use PHP Class, from PHPSnipe framework.
 
 Include it and use it like this
 
-<code>
+```
 $db = new Database();
 $sql = "select * from settings";
 $db->query($sql);
@@ -14,4 +14,4 @@ while ($db->next()) {
 	$settings->description[$field] = $login->rs['description'];
 	$i++;
 }
-</code>
+```
